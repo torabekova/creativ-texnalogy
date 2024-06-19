@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 858px;
+    width: 100%;
+    padding: 15px 0;
+    margin: auto;
+  }
+  
+  .container-header{
+      max-width: 850px;
+      width: 100%;
+    padding: 15px 0;
+    margin: auto;
+  }
+  
+  .header__nav {
+      display: flex;
+    justify-content: end;
+    gap: 33px;
+  
+  }
+  
+  .header__link{
+      font-family: Heebo;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29.38px;
+  text-align: right;
+  color: #000000;
+  }
+  
+  .header__link:active{
+      color: red;
+  }
+  
+  header{
+      margin-bottom: 100px;
+  }
+  
+
+  /* home  */
+
+
+
+
+  .home__text{
+    font-family: Heebo;
+font-size: 34px;
+font-weight: 700;
+line-height: 49.94px;
+text-align: left;
+color: #21243D;
+margin-bottom: 30px;
+max-width: 506px;
+  }
+
+
+  .home__div{
+    display: flex;
+    gap: 17px;
+  }
+
+
+  .home__div--btn{
+    padding: 2px 8px;
+    font-family: Heebo;
+font-size: 18px;
+font-weight: 900;
+/* line-height: 60px; */
+text-align: left;
+color: white;
+background-color: #FF7C7C;
+border-radius: 20px;
+border: none;
+height: 30px;
+  }
+
+
+  .home__div--title{
+    font-family: Heebo;
+font-size: 20px;
+font-weight: 400;
+line-height: 29.38px;
+text-align: left;
+color: #21243D;
+margin-bottom: 23px;
+  }
+
+
+  .home__title{
+    font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+text-align: left;
+color: #000000;
+margin-bottom: 46px;
+max-width: 681px;
+  }
+
+
+
+
+  /* heading  */
+
+  .heading{
+    margin-bottom: 27px;
+  }
+
+  .heading__text{
+    font-family: Heebo;
+font-size: 30px;
+font-weight: 500;
+line-height: 60px;
+text-align: left;
+color: #21243D;
+  }
+
+
+  .heading__text--h2{
+    font-family: Heebo;
+font-size: 24px;
+font-weight: 500;
+line-height: 60px;
+text-align: left;
+color: #21243D;
+padding: 0 0 30px 0;
+  }
+
+  .heading__title{
+    font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+text-align: left;
+color: #000000;
+margin-bottom: 30px;
+max-width: 677px;
+  }
+
+
+  .heading__img{
+    margin-bottom: 27px;
+  }
+
+
+  /* footer  */
+
+footer{
+  padding: 50px 0;
+}
+
+.footer__icons {
+display: flex;
+gap: 35px;
+justify-content: center;
+}
+
+
+.footer__link{
+  font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.56px;
+text-align: center;
+color: #21243D;
+padding-top: 26px;
+/* justify-content: center; */
+}
+
+
+.footer__link-div{
+  display: flex;
+  justify-content: center;
+}

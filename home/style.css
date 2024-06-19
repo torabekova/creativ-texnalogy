@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 858px;
+  width: 100%;
+  padding: 15px 0;
+  margin: auto;
+}
+
+.container-header{
+    max-width: 1095px;
+    width: 100%;
+  padding: 15px 0;
+  margin: auto;
+}
+
+.header__nav {
+    display: flex;
+  justify-content: end;
+  gap: 33px;
+
+}
+
+.header__link{
+    font-family: Heebo;
+font-size: 20px;
+font-weight: 500;
+line-height: 29.38px;
+text-align: right;
+color: #000000;
+}
+
+.header__link:active{
+    color: red;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+/* home  */
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 71px;
+}
+
+.home__content {
+  max-width: 506px;
+  width: 100%;
+}
+
+.home__text {
+  font-family: Heebo;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #21243d;
+}
+
+.home__title {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243d;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.home__link {
+  border: 1px solid #ff6464;
+  padding: 9px 21px 17px 20px;
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29.38px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #ff6464;
+}
+
+.Recent {
+  padding: 7px 0;
+  background-color: #edf7fa;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts__text {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: #21243d;
+}
+
+.posts__link {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: right;
+  color: #00a8cc;
+  padding-top: 20px;
+}
+
+.design {
+  max-width: 418px;
+  width: 100%;
+  padding: 24px 21px 30px 23px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.design__text {
+  font-family: Heebo;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38.19px;
+  text-align: left;
+  color: #21243d;
+}
+
+.design__div {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 11px;
+  margin-top: 17px;
+}
+
+.design__div-tex {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.44px;
+  text-align: left;
+  color: #21243d;
+}
+
+.design__title {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243d;
+}
+
+.Recent__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Featured-works */
+
+.Featured-works {
+  padding: 15px 0;
+  margin-bottom: 83px;
+}
+
+.Featured-works__content {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+.Featured-works__div-btn {
+  padding: 5px 30px;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 900;
+  /* line-height: 60px; */
+  text-align: left;
+  color: #ffffff;
+  background-color: #142850;
+  border-radius: 30px;
+  border: none;
+}
+
+.Featured-works__div-title {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.38px;
+  text-align: left;
+  color: #8695a4;
+}
+
+.Featured-works__text {
+  max-width:305px ;
+  width: 100%;
+  height: 44px;
+  top: 1077px;
+  left: 410px;
+  gap: 0px;
+  opacity: 0px;
+  color: #21243d;
+}
+
+.Featured-works__title {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243d;
+  padding-top: 32px;
+}
+
+.Featured-works__hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Featured__text {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: #21243d;
+  padding-bottom: 15px;
+}
+
+/* footer  */
+
+footer{
+    padding: 50px 0;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+
+
+.footer__link{
+    font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.56px;
+text-align: center;
+color: #21243D;
+padding-top: 26px;
+/* justify-content: center; */
+}
+
+
+.footer__link-div{
+    display: flex;
+    justify-content: center;
+}

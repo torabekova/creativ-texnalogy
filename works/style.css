@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 858px;
+    width: 100%;
+    padding: 15px 0;
+    margin: auto;
+  }
+  
+  .container-header{
+      max-width: 1095px;
+      width: 100%;
+    padding: 15px 0;
+    margin: auto;
+  }
+  
+  .header__nav {
+      display: flex;
+    justify-content: end;
+    gap: 33px;
+  
+  }
+  
+  .header__link{
+      font-family: Heebo;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29.38px;
+  text-align: right;
+  color: #000000;
+  }
+  
+  .header__link:active{
+      color: red;
+  }
+  
+  header{
+      margin-bottom: 100px;
+  }
+  
+
+  /* Featured-works */
+
+.Featured-works {
+  padding: 15px 0;
+  margin-bottom: 83px;
+}
+
+.Featured-works__content {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+.Featured-works__div-btn {
+  padding: 5px 30px;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 900;
+  /* line-height: 60px; */
+  text-align: left;
+  color: #ffffff;
+  background-color: #142850;
+  border-radius: 30px;
+  border: none;
+}
+
+.Featured-works__div-title {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.38px;
+  text-align: left;
+  color: #8695a4;
+}
+
+.Featured-works__text {
+  max-width:305px ;
+  width: 100%;
+  height: 44px;
+  top: 1077px;
+  left: 410px;
+  gap: 0px;
+  opacity: 0px;
+  color: #21243d;
+}
+
+.Featured-works__title {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243d;
+  padding-top: 32px;
+}
+
+.Featured-works__hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #e0e0e025;
+}
+
+.Featured__text {
+  font-family: Heebo;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: left;
+color: #21243D;  
+margin-bottom: 50px;
+}
+
+
+/* footer  */
+
+
+footer{
+  padding: 50px 0;
+}
+
+.footer__icons {
+display: flex;
+gap: 35px;
+justify-content: center;
+}
+
+
+.footer__link{
+  font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.56px;
+text-align: center;
+color: #21243D;
+padding-top: 26px;
+/* justify-content: center; */
+}
+
+
+.footer__link-div{
+  display: flex;
+  justify-content: center;
+}
