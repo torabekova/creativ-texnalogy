@@ -45,6 +45,10 @@ header{
 
 /* home  */
 
+.display__none{
+  display: none;
+}
+
 .home {
   display: flex;
   justify-content: space-between;
@@ -264,3 +268,23 @@ padding-top: 26px;
     display: flex;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 991px) {
+  .home{
+    flex-direction: column;
+  }
+
+  .display__none{
+    display: block;
+    justify-content: center;
+  }
+
+  .media__none{
+    display: none;
+  }
+
+  
+}
+  
+
